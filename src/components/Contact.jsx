@@ -20,11 +20,11 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_6uln28a',    // Service ID
-        'template_8it2fkh',   // Template ID 
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,  
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, 
         form.current,
         {
-          publicKey: '__iWfpAg_BCmCRBnv', // Public Key
+          publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
         }
       )
       .then(
