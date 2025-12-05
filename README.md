@@ -44,7 +44,7 @@ A modern, high-performance, and fully responsive Personal Portfolio website buil
 
 ---
 
-## ⚙️ Environment Variables (এনভায়রনমেন্ট ভেরিয়েবল)
+## ⚙️ Environment Variables 
 
 To run this project locally, you need to set up environment variables for **EmailJS**.
 Create a `.env.local` file in the root directory and add the following keys:
@@ -53,3 +53,31 @@ Create a `.env.local` file in the root directory and add the following keys:
 NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id_here
 NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id_here
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key_here
+```
+---
+
+```bash
+# **Note:** You can obtain these keys by signing up at EmailJS.
+```
+## 🚀 Getting Started
+
+**1. Clone the repository**
+
+Follow these steps to run the project on your local machine:
+```bash
+git clone https://github.com/your-username/portfolio-shahriar.git
+
+cd portfolio-shahriar
+```
+**2. Install dependencies**
+
+```bash
+npm install
+# or
+yarn install
+```
+**3. Run the development server**
+
+```bash
+npm run dev
+```
