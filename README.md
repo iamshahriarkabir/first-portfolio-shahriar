@@ -81,3 +81,32 @@ yarn install
 ```bash
 npm run dev
 ```
+## 📂 Project Structure
+A quick look at the top-level files and directories you'll see in this project.
+
+```bash
+.
+├── public/              # Static assets (images, pdfs)
+├── src/
+│   ├── app/             # Next.js App Router pages (layout.js, page.js)
+│   ├── components/      # Reusable components (Header, Hero, Projects, etc.)
+│   └── providers.js     # Theme providers config
+├── .env.local           # Environment variables (Ignored by Git)
+├── tailwind.config.js   # Tailwind configuration
+└── package.json         # Project dependencies
+```
+
+## 🤝 Contact
+### Shahriar Kabir ###
+Full Stack Developer
+
+
+*   **📧 Email:** z4codelearn@gmail.com
+*   **🔗 LinkedIn:** Shahriar Kabir (Zafor)
+*   **💻 GitHub:** github.com/your-github-username
+
+
+<div align="center">
+<sub>Built with ❤️ by Shahriar using Next.js</sub>
+</div>
+```
