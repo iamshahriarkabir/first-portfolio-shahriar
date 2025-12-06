@@ -1,11 +1,11 @@
 # 🚀 Shahriar - Professional Portfolio
 
 ![Project Banner](https://via.placeholder.com/1200x400?text=Shahriar+Portfolio+Banner) 
-*(Note: Replace this link with a screenshot of your website landing page)*
+
 
 A modern, high-performance, and fully responsive Personal Portfolio website built with **Next.js 14**, **Tailwind CSS**, and **Framer Motion**. This project showcases a seamless user experience with dark/light mode support, interactive animations, and a functional contact form.
 
-🔗 **Live Demo:** [https://your-project-name.vercel.app](https://your-project-name.vercel.app)
+🔗 **Live Demo:** [https://first-portfolio-shahriar.vercel.app/](https://first-portfolio-shahriar.vercel.app/)
 
 ---
 
@@ -54,10 +54,9 @@ NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id_here
 NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id_here
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key_here
 ```
----
 
 ```bash
-# **Note:** You can obtain these keys by signing up at EmailJS.
+Note: You can obtain these keys by signing up at [EmailJS](https://www.emailjs.com/).
 ```
 ## 🚀 Getting Started
 
@@ -65,7 +64,7 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key_here
 
 Follow these steps to run the project on your local machine:
 ```bash
-git clone https://github.com/your-username/portfolio-shahriar.git
+git clone https://github.com/iamshahriarkabir/first-portfolio-shahriar.git
 
 cd portfolio-shahriar
 ```
@@ -85,7 +84,7 @@ npm run dev
 A quick look at the top-level files and directories you'll see in this project.
 
 ```bash
-.
+
 ├── public/              # Static assets (images, pdfs)
 ├── src/
 │   ├── app/             # Next.js App Router pages (layout.js, page.js)
@@ -97,7 +96,7 @@ A quick look at the top-level files and directories you'll see in this project.
 ```
 
 ## 🤝 Contact
-### Shahriar Kabir ###
+**Shahriar Kabir**
 Full Stack Developer
 
 
@@ -109,4 +108,3 @@ Full Stack Developer
 <div align="center">
 <sub>Built with ❤️ by Shahriar using Next.js</sub>
 </div>
-```
