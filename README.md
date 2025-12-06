@@ -1,6 +1,6 @@
 # 🚀 Shahriar - Professional Portfolio
 
-![Project Banner](https://via.placeholder.com/1200x400?text=Shahriar+Portfolio+Banner) 
+![Project Banner](https://i.ibb.co.com/SD8BfpqR/portfolio-banner.png) 
 
 
 A modern, high-performance, and fully responsive Personal Portfolio website built with **Next.js 14**, **Tailwind CSS**, and **Framer Motion**. This project showcases a seamless user experience with dark/light mode support, interactive animations, and a functional contact form.
