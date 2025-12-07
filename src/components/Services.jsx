@@ -23,7 +23,7 @@ const Services = () => {
       title: "Frontend\nDevelopment",
       icon: <Layout size={28} />,
       description:
-        "Crafting delightful user interfaces with Tailwind CSS, JavaScript, React, and Next.js.",
+        "Crafting delightful user interfaces with Tailwind CSS, JavaScript, React, and Next.js. ✨",
       modalPoints: [
         "User Interfaces: Engaging, intuitive designs.",
         "Responsive Layouts: Adapt to all devices.",
@@ -37,7 +37,7 @@ const Services = () => {
       title: "Backend\nDevelopment",
       icon: <Server size={28} />,
       description:
-        "Creating robust server-side logic, secure APIs, and scalable architecture.",
+        "Creating robust server-side logic, secure APIs, and scalable architecture. 🚀",
       modalPoints: [
         "API Development: RESTful & GraphQL APIs.",
         "Security: Auth, JWT & Data protection.",
@@ -51,7 +51,7 @@ const Services = () => {
       title: "Full Stack\nDevelopment",
       icon: <Code size={28} />,
       description:
-        "Handling both frontend and backend to build complete web solutions from scratch.",
+        "Handling both frontend and backend to build complete web solutions from scratch. 🌐",
       modalPoints: [
         "End-to-End Development: From UI to DB.",
         "Database Design: Efficient schema modeling.",
@@ -65,7 +65,7 @@ const Services = () => {
       title: "WordPress\nDevelopment",
       icon: <LayoutTemplate size={28} />,
       description:
-        "Custom themes, plugins, and Elementor solutions for dynamic websites.",
+        "Custom themes, plugins, and Elementor solutions for dynamic websites. 🪄",
       modalPoints: [
         "Theme Customization: Tailored to your brand.",
         "Elementor Pro: Pixel-perfect page building.",
@@ -79,7 +79,7 @@ const Services = () => {
       title: "Database\nManagement",
       icon: <Database size={28} />,
       description:
-        "Designing and managing optimized databases using MongoDB, PostgreSQL & SQL.",
+        "Designing and managing optimized databases using MongoDB, PostgreSQL & SQL. 🧑‍💻",
       modalPoints: [
         "Schema Design: Organized data structure.",
         "Data Migration: Safe transfer of data.",
@@ -93,7 +93,7 @@ const Services = () => {
       title: "Web\nDesign",
       icon: <Globe size={28} />,
       description:
-        "Creating modern, clean, and user-friendly web designs that convert.",
+        "Creating modern, clean, and user-friendly web designs that convert. 🎴",
       modalPoints: [
         "Wireframing: Blueprints of the layout.",
         "Prototyping: Interactive mockups.",
@@ -199,7 +199,7 @@ const Services = () => {
 
                 {/* Description */}
                 <p className="text-center text-sm text-text mb-8 px-4">
-                  "{selectedService.description} ☀️"
+                  {selectedService.description} 
                 </p>
 
                 {/* Points List */}

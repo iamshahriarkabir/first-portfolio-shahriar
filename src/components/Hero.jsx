@@ -81,7 +81,7 @@ const Hero = () => {
             variants={fadeUp}
             className="text-text max-w-md text-sm md:text-base leading-relaxed"
           >
-            Turning ideas into stunning websites. I design and code beautifully simple things, and I love what I do.
+            🚀 Building Modern & High-Performance Websites <br/>💻 MERN & WordPress Specialist | Open to Work 🌟
           </motion.p>
 
           <motion.div
@@ -135,7 +135,7 @@ const Hero = () => {
              >
                 <Layout size={24} className="text-title" />
                 <div>
-                   <h3 className="font-bold text-title text-sm">3 Years</h3>
+                   <h3 className="font-bold text-title text-sm">2 Years</h3>
                    <span className="text-[10px] text-text">Experience</span>
                 </div>
              </motion.div>
@@ -148,7 +148,7 @@ const Hero = () => {
              >
                 <Server size={24} className="text-title" />
                 <div>
-                   <h3 className="font-bold text-title text-sm">50+</h3>
+                   <h3 className="font-bold text-title text-sm">30+</h3>
                    <span className="text-[10px] text-text">Projects</span>
                 </div>
              </motion.div>

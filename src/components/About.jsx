@@ -67,7 +67,7 @@ const About = () => {
                 <Award className="mx-auto text-title mb-2" size={24} />
                 <h3 className="font-bold text-title text-sm">Experience</h3>
                 <span className="text-[10px] text-text block">
-                  3 Years Working
+                  2 Years Working
                 </span>
               </div>
 
@@ -76,7 +76,7 @@ const About = () => {
                 <Briefcase className="mx-auto text-title mb-2" size={24} />
                 <h3 className="font-bold text-title text-sm">Completed</h3>
                 <span className="text-[10px] text-text block">
-                  50+ Projects
+                  30+ Projects
                 </span>
               </div>
 
@@ -96,10 +96,7 @@ const About = () => {
               variants={fadeUp}
               className="text-text mb-8 leading-7 max-w-lg"
             >
-              Proficient in React.js, Next.js, Redux, Node.js, and Docker. I
-              build scalable, high-performance applications. Skilled in Prisma,
-              Socket.IO, and Kubernetes, with expertise in MongoDB, PostgreSQL.
-              I deliver innovative real-time systems.
+              I’m a MERN Stack and WordPress Developer skilled in building fast, responsive, and modern web applications. I work with React, Next.js, Tailwind, Node.js, MongoDB, and also specialise in WordPress using Elementor Pro, ACF, CPT UI, and WooCommerce.
             </motion.p>
 
             {/* Download CV Button */}

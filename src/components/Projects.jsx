@@ -12,63 +12,63 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: "Airbnb Clone 2.0",
-      image: "/assets/project1.jpg",
+      title: "TechBazar – Full Stack eCommerce Application",
+      image: "/assets/project1.png",
       description:
-        "A full-stack booking application with reservation system, guest management, and responsive design.",
-      techStack: ["Next.js", "Tailwind", "Prisma", "MongoDB"],
-      github: "https://github.com",
-      demo: "https://vercel.com",
+        "Next.js 15 frontend with Express.js backend for secure, modern eCommerce with polished UI/UX.",
+      techStack: ["Next.js", "Tailwind", "NextAuth.js", "Express.js", "MongoDB"],
+      github: "https://github.com/iamshahriarkabir/TechBazar-nextJS-Full-Stack.git",
+      demo: "https://techbazar-woad.vercel.app",
     },
     {
       id: 2,
-      title: "Miro Collaborative Board",
-      image: "/assets/project2.jpg",
+      title: "ToyTopia – A Local Kids Toy Store Platform",
+      image: "/assets/project2.png",
       description:
-        "Real-time whiteboard for teams with drawing features, sticky notes, and live collaboration.",
-      techStack: ["React", "Convex", "Tailwind", "Clerk"],
-      github: "https://github.com",
-      demo: "https://vercel.com",
+        "A responsive SPA marketplace for kids’ toys with filters, sorting, and secure authentication.",
+      techStack: ["React", "Tailwind", "Firebase", "Vercel"],
+      github: "https://github.com/iamshahriarkabir/ToyTopia-Upgradation.git",
+      demo: "https://toytopiaz4code.netlify.app",
     },
     {
       id: 3,
-      title: "Jira Task Manager",
-      image: "/assets/project3.jpg",
+      title: "EducareHub – Full-stack Online Learning Platform",
+      image: "/assets/project3.png",
       description:
-        "Project management tool with Kanban board, task drag-and-drop, and team workspace features.",
-      techStack: ["Next.js", "Shadcn UI", "MySQL", "Stripe"],
-      github: "https://github.com",
-      demo: "https://vercel.com",
+        "EducareHub backend: Node.js/Express/MongoDB REST API for managing users, courses, and enrollments.",
+      techStack: ["Node.js", "Express.js", "MongoDB", "CORS"],
+      github: "https://github.com/iamshahriarkabir/educarehub-client.git",
+      demo: "https://educarehub-5b51c.web.app/",
     },
     {
       id: 4,
-      title: "Messenger Clone",
-      image: "/assets/project4.jpg",
+      title: "Portfolio – MERN Stack Developer",
+      image: "/assets/project4.png",
       description:
-        "Real-time chat application with image sharing, group chat, and active status indicators.",
-      techStack: ["Next.js", "Pusher", "Cloudinary", "Auth.js"],
-      github: "https://github.com",
-      demo: "https://vercel.com",
+        "Next.js 14 & Tailwind CSS portfolio with dark/light mode, animations, and contact form.",
+      techStack: ["Next.js", "Tailwind", "EmailJS", "Vercel"],
+      github: "https://github.com/iamshahriarkabir/first-portfolio-shahriar.git",
+      demo: "https://first-portfolio-shahriar.vercel.app/",
     },
     {
       id: 5,
-      title: "E-Commerce Dashboard",
-      image: "/assets/project1.jpg",
+      title: "Afiya Travels – Travel Agency WordPress Site",
+      image: "/assets/project5.png",
       description:
-        "Admin dashboard for managing products, orders, and customers with chart visualization.",
-      techStack: ["React", "Material UI", "Recharts", "Firebase"],
-      github: "https://github.com",
-      demo: "https://vercel.com",
+        "Developed a WordPress site with custom tour packages, ACF listings, and a Booking System.",
+      techStack: ["Booking Systems", "ACF", "CPT UI", "Dynamic Content"],
+      github: "#",
+      demo: "https://afiyatravels.com/",
     },
     {
       id: 6,
-      title: "AI Image Generator",
-      image: "/assets/project2.jpg",
+      title: "Portfolio – Veterinarian Doctor WordPress Site",
+      image: "/assets/project6.png",
       description:
         "SaaS application that generates images from text using OpenAI DALL-E API.",
-      techStack: ["Next.js", "OpenAI API", "Stripe", "Zustand"],
-      github: "https://github.com",
-      demo: "https://vercel.com",
+      techStack: ["Elementor Pro", "ACF", "CPT UI", "WooCommerce"],
+      github: "#",
+      demo: "https://mosharof.com/",
     },
   ];
 
@@ -184,7 +184,7 @@ const Projects = () => {
             className={`w-10 h-10 rounded-xl flex items-center justify-center font-medium transition-all duration-300 ${
               currentPage === 1
                 ? "bg-title text-background shadow-lg scale-110"
-                : "bg-transparent text-title hover:bg-gray-200 dark:hover:bg-gray-800"
+                : "bg-transparent text-title dark:hover:text-gray-200 hover:text-background hover:bg-gray-200 dark:hover:bg-gray-800"
             }`}
           >
             1
@@ -196,7 +196,7 @@ const Projects = () => {
             className={`w-10 h-10 rounded-xl flex items-center justify-center font-medium transition-all duration-300 ${
               currentPage === 2
                 ? "bg-title text-background shadow-lg scale-110"
-                : "bg-transparent text-title hover:bg-gray-200 dark:hover:bg-gray-800"
+                : "bg-transparent text-title dark:hover:text-gray-200 hover:text-background hover:bg-gray-200 dark:hover:bg-gray-800"
             }`}
           >
             2
@@ -208,7 +208,7 @@ const Projects = () => {
             className={`w-10 h-10 rounded-xl flex items-center justify-center font-medium transition-all duration-300 ${
               currentPage === 3
                 ? "bg-title text-background shadow-lg scale-110"
-                : "bg-transparent text-title hover:bg-gray-200 dark:hover:bg-gray-800"
+                : "bg-transparent text-title dark:hover:text-gray-200 hover:text-background hover:bg-gray-200 dark:hover:bg-gray-800"
             }`}
           >
             3
@@ -217,7 +217,7 @@ const Projects = () => {
           {/* Next Button (Arrow) */}
           <button
             onClick={() => paginate(currentPage < 3 ? currentPage + 1 : 1)}
-            className="w-10 h-10 rounded-xl flex items-center justify-center text-title hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+            className="w-10 h-10 rounded-xl flex items-center justify-center text-title dark:hover:text-gray-200 hover:text-background hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
           >
             <ArrowRight size={20} />
           </button>
