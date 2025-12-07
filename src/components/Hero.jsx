@@ -13,7 +13,7 @@ const Hero = () => {
     { icon: <Github size={20} />, href: "https://github.com/iamshahriarkabir" },
   ];
 
-  // এনিমেশন ভেরিয়েন্ট (Reusable)
+  // Animation Varient (Reusable)
   const fadeUp = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
